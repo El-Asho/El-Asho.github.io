@@ -2,27 +2,87 @@
 <html>
     <head>
         <style>
-            .div1{
-                padding-top: 50px;
-                padding-right: 30px;
-                padding-bottom: 50px;
-                padding-left: 80px;
+            .parent {
+                display: inline-flex;
+                margin: 1rem;
+                padding: 2rem 2rem;
+                text-align: center;
+                ;
+                }
+            .child1 {
+                width:20%;
+                height:50%;
+                vertical-align: center;
+                float:left;
+                background-color: red;
+                border-radius: 180px;
+                padding:100px;
+                margin:25px;
+                border: 1px solid #000000;
+                box-shadow:  -1px 1px #000000,
+                -2px 2px #000000,
+                -3px 3px #000000,
+                -4px 4px #000000,
+                -5px 5px #000000;
+                }
+            .child2 {
+                width:20%;
+                height:50%;
+                vertical-align: center;
+                float:left;
+                background-color: red;
+                border-radius: 180px;
+                padding: 100px;
+                margin:25px;
+                border: 1px solid #000000;
+                box-shadow:  -1px 1px #000000,
+                -2px 2px #000000,
+                -3px 3px #000000,
+                -4px 4px #000000,
+                -5px 5px #000000;
+
+                }
+            .child3 {
+                width:20%;
+                height:50%;
+                vertical-align: center;
+                float:left;
+                background-color: red;
+                border-radius: 180px;
+                padding:100px;
+                margin:25px;
+                border: 1px solid #000000;
+                box-shadow:  -1px 1px #000000,
+                -2px 2px #000000,
+                -3px 3px #000000,
+                -4px 4px #000000,
+                -5px 5px #000000;
             }
         </style>
 
 
     </head>
-    <body>
-        <div class="div1"><iframe src="AP Screencastify.mp4"></iframe>
-            <h2>WPM Calculator</h2>
-            <h3>This Calculator generates a block of text from a famous and world renowned book. It then allows you to try and type that text as fast as you can, when you are correctly typing the text will be green, and typing incorrectly will turn the text red. Once you have finished typing the text correctly, the program will return you with your WPM.</h3>
-            <a href="https://github.com/El-Asho/Ap-Project">Github</a>
-            <a href="oconsole.exe">Executable</a>
-            <div>
-            <h2>Wordle Helper</h2>
-            <h3>This Program assists in playing the popular game wordle. It allows you to input your guesses and then what Wordle returned to you. It will then give you the most common words that follow all of these parameters. </h3>
+    <body bgcolor="#EAE192">
+        <span class="parent">
+            <div class="child1"><iframe src="AP Screencastify.mp4"></iframe>
+                <h2>WPM Calculator</h2>
+                <h3>This Calculator generates a block of text from a famous and world renowned book. It then allows you to try and type that text as fast as you can, when you are correctly typing the text will be green, and typing incorrectly will turn the text red. Once you have finished typing the text correctly, the program will return you with your WPM.</h3>
+                <a href="https://github.com/El-Asho/Ap-Project"><button>Github</button></a>
+                <a href="oconsole.exe"><button>Executable</button></a>
             </div>
-        </div>
+            <div class="child2"><iframe src="Wordle-Helper.mp4"></iframe>
+                <h2>Wordle Helper</h2>
+                <h3>This Program assists in playing the popular game wordle. It allows you to input your guesses and then what Wordle returned to you. It will then give you the most common words that follow all of these parameters.</h3>
+                <a href="https://github.com/El-Asho/Wordle-Helper"><button>Github</button></a>
+            </div>
+            <div class="child1"><iframe src="2048.mp4"></iframe>
+                <h2>Ai 2048</h2>
+                <h3>This program is an expirement, it sees how well a basic Ai can do at 2048. THe Ai only has a certain number of commands written in and does not perform very. It is meant to go along with a human playing 2048 themselves to see how much better they can do then the Ai.</h3>
+                <a href="https://github.com/El-Asho/2048"><button>Github</button></a>
+                
+            </div>
+        </span>
+       
         
 
 
