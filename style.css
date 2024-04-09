@@ -1,6 +1,64 @@
-div {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+#tan{
+    color:#EAE192;
+
   }
+h1{
+    font-size: 50px;
+}
+
+.parent{
+    display: inline-flex;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    ;
+    }
+.child1 {
+    width:20%;
+    height:50%;
+    vertical-align: center;
+    float:left;
+    background-color: red;
+    border-radius: 180px;
+    padding:100px;
+    margin:25px;
+    border: 1px solid #000000;
+    box-shadow:  -1px 1px #000000,
+    -2px 2px #000000,
+    -3px 3px #000000,
+    -4px 4px #000000,
+    -5px 5px #000000;
+    }
+.child2 {
+    width:20%;
+    height:50%;
+    vertical-align: center;
+    float:left;
+    background-color: red;
+    border-radius: 180px;
+    padding: 100px;
+    margin:25px;
+    border: 1px solid #000000;
+    box-shadow:  -1px 1px #000000,
+    -2px 2px #000000,
+    -3px 3px #000000,
+    -4px 4px #000000,
+    -5px 5px #000000;
+
+    }
+.child3 {
+    width:20%;
+    height:50%;
+    vertical-align: center;
+    float:left;
+    background-color: red;
+    border-radius: 180px;
+    padding:100px;
+    margin:25px;
+    border: 1px solid #000000;
+    box-shadow:  -1px 1px #000000,
+    -2px 2px #000000,
+    -3px 3px #000000,
+    -4px 4px #000000,
+    -5px 5px #000000;
+}
